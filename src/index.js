@@ -3,16 +3,16 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ContactPage from "./pages/ContactPage";
+// import ContactPage from "./pages/ContactPage";
 import CvPage from "./pages/CvPage";
-import ProjectsPage from "./pages/ProjectsPage";
+// import ProjectsPage from "./pages/ProjectsPage";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route index path="home" element={<Home />} />
-        <Route path="contact" element={<ContactPage />} />
+        {/* {<Route path="contact" element={<ContactPage />} />} */}
         <Route path="cv" element={<CvPage />} />
         {/*<Route path="projects" element={<ProjectsPage />} />*/}
       </Routes>
