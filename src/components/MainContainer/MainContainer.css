@@ -1,0 +1,5 @@
+.maincontainer {
+    margin: 1rem 9rem 0 9rem;
+    display: flex;
+    height: fit-content;
+}

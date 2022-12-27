@@ -1,0 +1,125 @@
+.FormContainer {
+    height: fit-content;
+    display: flex;
+    margin: 5rem 20rem 0 20rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.FormContainer>* {
+    width: 100%;
+}
+
+.header {
+    flex: 1;
+}
+
+.formbox {
+    flex: 1;
+}
+
+.lecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 35rem
+}
+
+.inpt {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form>* {
+    margin-bottom: 1rem;
+}
+
+.form>:nth-child(1) input {
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.form>:nth-child(2) input {
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.form>:nth-child(3) input {
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    align-self: center;
+    display: flex;
+    flex: 2;
+    width: 100%;
+    margin: 0 20rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content label {
+    padding-left: 0.3rem;
+    width: 56.2rem;
+    position: absolute;
+    transform: translateY(-1.35rem);
+}
+
+textarea {
+    font-size: 1rem;
+    resize: none;
+    height: 14rem;
+    width: 56rem;
+}
+
+.headerfr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerfr h1 {
+    background: linear-gradient(to right, #2EC1AC, #120078, #FA1E0E, #F37121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input {
+    border: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.send {
+    letter-spacing: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    background-color: red;
+    background-image: linear-gradient(to right, #2EC1AC, #0d4dbb, #F37121);
+
+
+
+    background: linear-gradient(217deg, #2EC1AC, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), #0d4dbb 70.71%),
+        linear-gradient(336deg, red, #F37121 70.71%);
+
+}
+
+.send:hover {
+    letter-spacing: normal;
+}

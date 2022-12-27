@@ -1,0 +1,19 @@
+.sidebar {
+    flex: 1;
+    border-right: 1px black solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+/*
+.sidebar * {
+    border: 1px black solid;
+}
+*/
+.sidebar:hover {
+    opacity: 1;
+}

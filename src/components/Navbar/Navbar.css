@@ -1,0 +1,55 @@
+:root {
+    --blue-palette: #1563FF;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    padding: 1rem 10rem;
+    border-bottom: 1px black solid;
+    overflow: hidden;
+}
+
+
+.pic {
+    display: flex;
+}
+
+.pic img {
+    max-height: 3rem;
+}
+
+.namePic {
+    display: flex;
+    cursor: pointer;
+}
+
+
+#NamePage {
+    display: flex;
+    flex-direction: column;
+}
+
+#NamePage * {
+    padding: 0;
+    margin: 0 0 0 20px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.item {
+    font-size: 30px;
+}
+
+.linkListNav {
+    display: flex;
+    margin-left: auto;
+}
+
+.linkListNav * {
+    margin: 1rem;
+}

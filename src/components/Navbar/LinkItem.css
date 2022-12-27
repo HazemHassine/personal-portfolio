@@ -1,0 +1,21 @@
+.links {
+    background-color: aqua;
+    display: flex;
+}
+
+#link {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+#link:hover {
+    font-weight: bold;
+}
+
+#bar {
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+}

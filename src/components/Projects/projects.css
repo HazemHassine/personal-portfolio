@@ -1,0 +1,17 @@
+.repo {
+    width: 20rem;
+    height: 6rem;
+    border-radius: 15px;
+    background-color: rgba(241, 241, 241, 0.5);
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(241, 241, 241, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.repo:hover {
+    background-color: rgba(241, 241, 241, 0.9);
+    box-shadow: 0 0 15px rgba(241, 241, 241, 0.5);
+}

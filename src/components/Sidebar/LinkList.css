@@ -1,0 +1,11 @@
+.linkList {
+    width: 15rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1.5rem 0 0;
+}
