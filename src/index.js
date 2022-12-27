@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route index path="home" element={<Home />} />
+        <Route index path="/" element={<Home />} />
         {/* {<Route path="contact" element={<ContactPage />} />} */}
         <Route path="cv" element={<CvPage />} />
         {/*<Route path="projects" element={<ProjectsPage />} />*/}

@@ -22,7 +22,7 @@ const Navbar = (props) => {
         }}
       ></div>
       <div className="container" style={{ backgroundColor: "white" }}>
-        <Link className="namePic" to="../home">
+        <Link className="namePic" to="/">
           <div className="pic">
             <img
               id="icon"
@@ -37,7 +37,7 @@ const Navbar = (props) => {
           </div>
         </Link>
         <div className="linkListNav">
-          <LinkItem name="Home" to="/home" />
+          <LinkItem name="Home" to="/" />
           {/*<LinkItem name="Projects" to="projects" />*/}
           {/*<LinkItem name="Contact me" to="contact" />*/}
           <LinkItem name="CV" to="./cv" />
